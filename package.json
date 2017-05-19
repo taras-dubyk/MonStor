@@ -1,7 +1,8 @@
 {
 	"name": "MonStor",
 	"version": "0.1.0",
-	"publisher": "hackolade",
+	"versionDate": "2017-05-13",
+	"author": "hackolade",
 	"engines": {
 		"hackolade": "1.6.x",
 		"hackoladePlugin": "1.0.0"
@@ -17,5 +18,6 @@
 		"features": {
 			"nestedCollections": true
 		}
-	}
+	},
+	"description": "Hackolade plugin for MonStor"
 }
