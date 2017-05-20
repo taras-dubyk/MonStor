@@ -1,15 +1,50 @@
 {
 	"modeName": "JsonDetails",
 	"structure": {
-		"number": [
+		"string": [
 			"name",
-			"sampleName",
 			"schemaId",
 			"type",
 			"description",
-			"primaryKey",
 			"dependencies",
 			"required",
+			"primaryKey",
+			"foreignCollection",
+			"foreignField",
+			"relationshipType",
+			"default",
+			"minLength",
+			"maxLength",
+			"pattern",
+			"format",
+			"enum",
+			"sample",
+			"comments",
+			{
+				"fieldName": "Other Attribute",
+				"fieldKeyword": "otherAttrib",
+				"shouldValidate": false,
+				"fieldType": "text",
+				"arrayItemDisabled": true,
+				"enableForReference": true,
+				"disabledOnCondition": [{
+						"key": "key",
+						"value": true
+					}, {
+						"key": "documentKind",
+						"value": true
+					}
+				]
+			}
+		],
+		"number": [
+			"name",
+			"schemaId",
+			"type",
+			"description",
+			"dependencies",
+			"required",
+			"primaryKey",
 			"foreignCollection",
 			"foreignField",
 			"relationshipType",
@@ -39,6 +74,11 @@
 			"sample",
 			"comments"
 		],
+		"bool": "boolean",
+		"map": "document",
+		"list": "array",
+		"bytes": "binary",
+		"null": "null",
 		"date": [
 			"name",
 			"sampleName",
@@ -53,39 +93,6 @@
 			"default",
 			"sample",
 			"comments"
-		],
-		"string": [
-			{
-				"fieldName": "name",
-				"fieldKeyword": "name",
-				"shouldValidate": true,
-				"fieldType": "text",
-				"arrayItemDisabled": true,
-				"enableForReference": true,
-				"disabledOnCondition": [{
-						"key": "key",
-						"value": true
-					}, {
-						"key": "documentKind",
-						"value": true
-					}
-				]
-			},
-			"type",
-			"description",
-			"comments",
-			"sample",
-			"default",
-			"format",
-			"enum",
-			"primaryKey",
-			"relationshipType",
-			"foreignCollection",
-			"foreignField",
-			"minLength",
-			"maxLength",
-			"pattern",
-			"required"
 		]
 	}
 }
