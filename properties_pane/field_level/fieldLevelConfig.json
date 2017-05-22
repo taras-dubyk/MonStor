@@ -84,7 +84,6 @@
 			"sampleName",
 			"schemaId",
 			"type",
-			"refPath",
 			"description",
 			"required",
 			"foreignCollection",
