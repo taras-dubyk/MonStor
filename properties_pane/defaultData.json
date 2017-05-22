@@ -1,6 +1,6 @@
 {
 	"model": {
-		"modelName": "New model",
+		"databaseName": "New model",
 		"dbVersion": "v1.0",
 		"dbVendor": "MonStor"
 	},
