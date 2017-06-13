@@ -6,6 +6,33 @@
 			"schemaId",
 			"type",
 			"description",
+			{
+				"fieldName": "EIC",
+				"fieldKeyword": "eic",
+				"shouldValidate": false,
+				"fieldTooltip": "Security data classification values to store information",
+				"fieldType": "select",
+				"options": [
+					"Public",
+					"Restricted",
+					"Confidential",
+					"Internal"
+				]
+			},
+			{
+				"fieldName": "PI",
+				"fieldKeyword": "pi",
+				"fieldTooltip": "Personal Identifier",
+				"shouldValidate": false,
+				"fieldType": "checkbox"
+			},
+			{
+				"fieldName": "PCI",
+				"fieldKeyword": "pci",
+				"fieldTooltip": "Payment Card Identifier",
+				"shouldValidate": false,
+				"fieldType": "checkbox"
+			},
 			"dependencies",
 			"required",
 			"primaryKey",
@@ -19,23 +46,7 @@
 			"format",
 			"enum",
 			"sample",
-			"comments",
-			{
-				"fieldName": "Other Attribute",
-				"fieldKeyword": "otherAttrib",
-				"shouldValidate": false,
-				"fieldType": "text",
-				"arrayItemDisabled": true,
-				"enableForReference": true,
-				"disabledOnCondition": [{
-						"key": "key",
-						"value": true
-					}, {
-						"key": "documentKind",
-						"value": true
-					}
-				]
-			}
+			"comments"
 		],
 		"number": [
 			"name",
