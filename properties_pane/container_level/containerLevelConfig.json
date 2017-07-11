@@ -14,7 +14,7 @@
 				"shouldValidate": false,
 				"fieldTooltip": "Per node RAM quota",
 				"fieldType": "text",
-				"labelOffset": 50
+				"valueType": "number"
 			},
 			{
 				"fieldName": "Access control",

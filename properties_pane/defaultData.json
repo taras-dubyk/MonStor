@@ -8,7 +8,7 @@
 		"name": "New keyspace"
 	},
 	"collection": {
-		"collectionName": "New collection",
+		"collectionName": "New document set",
 		"collectionUsers": [],
 		"indexes": [],
 		"collation": {}
