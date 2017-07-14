@@ -9,7 +9,7 @@
 		"relationshipType": "",
 		"parentRelationship": "",
 		"childRelationships": [],
-		"foreignCollection": "",
+		"foreignEntity": "",
 		"foreignField": [],
 		"format": ""
 	}

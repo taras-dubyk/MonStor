@@ -10,7 +10,7 @@
 		"relationshipType": "",
 		"parentRelationship": "",
 		"childRelationships": [],
-		"foreignCollection": "",
+		"foreignEntity": "",
 		"foreignField": [],
 		"properties": [],
 		"dependencies": [],

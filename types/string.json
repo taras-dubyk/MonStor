@@ -13,9 +13,9 @@
 		"relationshipType": "",
 		"parentRelationship": "",
 		"childRelationships": [],
-		"foreignCollection": "",
+		"foreignEntity": "",
 		"foreignField": [],
 		"enum": [],
-		"sample": ""
+		"sample": "vuhahah"
 	}
 }

@@ -34,7 +34,7 @@
 		"relationshipType": "",
 		"parentRelationship": "",
 		"childRelationships": [],
-		"foreignCollection": "",
+		"foreignEntity": "",
 		"foreignField": [],
 		"enum": [],
 		"mode": "",
