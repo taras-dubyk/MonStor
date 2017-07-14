@@ -86,7 +86,7 @@
 			"comments"
 		],
 		"bool": "boolean",
-		"map": "document",
+		"object": "document",
 		"list": "array",
 		"bytes": "binary",
 		"null": "null",
