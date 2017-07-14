@@ -7,9 +7,9 @@
 	"container": {
 		"name": "New keyspace"
 	},
-	"collection": {
-		"collectionName": "New document set",
-		"collectionUsers": [],
+	"entity": {
+		"entityName": "New document set",
+		"entityUsers": [],
 		"indexes": [],
 		"collation": {}
 	},
