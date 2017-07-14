@@ -53,7 +53,7 @@
 	"PROPERTIES_PANE___NORMALIZATION": "Normalization",
 	"CENTRAL_PANE___TAB_MONGODB_VIEW_SCRIPT": "Create View Script",
 	"CONTEXT_MENU___ADD_BUCKET": "Add keyspace",
-	"CONTEXT_MENU___ADD_COLLECTION": "Add doucment set",
+	"CONTEXT_MENU___ADD_COLLECTION": "Add document set",
 	"CONTEXT_MENU___ADD_VIEW": "Add view",
 	"CONTEXT_MENU___ALIGN_COLLECTIONS": "Align document sets",
 	"CONTEXT_MENU___ADD_ATTRIBUTE": "Add Attribute",
