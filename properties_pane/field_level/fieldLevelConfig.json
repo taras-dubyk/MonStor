@@ -1,5 +1,59 @@
+/*
+* Copyright © 2016-2017 by IntegrIT S.A. dba Hackolade.  All rights reserved.
+*
+* The copyright to the computer software herein is the property of IntegrIT S.A.
+* The software may be used and/or copied only with the written permission of 
+* IntegrIT S.A. or in accordance with the terms and conditions stipulated in 
+* the agreement/contract under which the software has been supplied. 
+*
+
+In order to define custom properties for any object's properties pane, you may copy/paste from the following,
+making sure that you maintain a proper JSON format.
+
+			{
+				"propertyName": "Simple text",
+				"propertyKeyword": "simpletextProp",
+				"shouldValidate": false,
+				"propertyType": "text"
+			},
+			{
+				"propertyName": "Text area",
+				"propertyKeyword": "textareaProp",
+				"propertyValidate": false,
+				"propertyTooltip": "Popup for multi-line text entry",
+				"propertyType": "details",
+				"template": "textarea"
+			},
+			{
+				"propertyName": "Dropdown selection",
+				"propertyKeyword": "dropdownProp",
+				"shouldValidate": false,
+				"propertyTooltip": "Select from list of options",
+				"propertyType": "select",
+				"options": [
+					"Option 1",
+					"Option 2",
+					"Option 3",
+					"Option 4"
+				]
+			},
+			{
+				"propertyName": "Numeric",
+				"propertyKeyword": "numericProp",
+				"propertyValidate": true,
+				"propertyType": "text",
+				"valueType": "number"
+			},
+			{
+				"propertyName": "Checkbox",
+				"propertyKeyword": "checkboxProp",
+				"shouldValidate": false,
+				"propertyType": "checkbox"
+			}
+
+*/
 {
-	"modeName": "JsonDetails",
+	"lowerTab": "JsonDetails",
 	"structure": {
 		"string": [
 			"name",
@@ -7,11 +61,11 @@
 			"type",
 			"description",
 			{
-				"fieldName": "EIC",
-				"fieldKeyword": "eic",
+				"propertyName": "EIC",
+				"propertyKeyword": "eic",
 				"shouldValidate": false,
-				"fieldTooltip": "Security data classification values to store information",
-				"fieldType": "select",
+				"propertyTooltip": "Security data classification values to store information",
+				"propertyType": "select",
 				"options": [
 					"Public",
 					"Restricted",
@@ -20,18 +74,18 @@
 				]
 			},
 			{
-				"fieldName": "PI",
-				"fieldKeyword": "pi",
-				"fieldTooltip": "Personal Identifier",
+				"propertyName": "PI",
+				"propertyKeyword": "pi",
+				"propertyTooltip": "Personal Identifier",
 				"shouldValidate": false,
-				"fieldType": "checkbox"
+				"propertyType": "checkbox"
 			},
 			{
-				"fieldName": "PCI",
-				"fieldKeyword": "pci",
-				"fieldTooltip": "Payment Card Identifier",
+				"propertyName": "PCI",
+				"propertyKeyword": "pci",
+				"propertyTooltip": "Payment Card Identifier",
 				"shouldValidate": false,
-				"fieldType": "checkbox"
+				"propertyType": "checkbox"
 			},
 			"dependencies",
 			"required",
@@ -62,10 +116,10 @@
 			"default",
 			"unit",
 			{
-				"fieldName": "Mode",
-				"fieldKeyword": "mode",
+				"propertyName": "Mode",
+				"propertyKeyword": "mode",
 				"shouldValidate": false,
-				"fieldType": "select",
+				"propertyType": "select",
 				"options": [
 					"",
 					"int",

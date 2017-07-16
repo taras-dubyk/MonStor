@@ -1,46 +1,100 @@
-[
-	{
-		"modeName": "Details",
-		"structure": [
+/*
+* Copyright © 2016-2017 by IntegrIT S.A. dba Hackolade.  All rights reserved.
+*
+* The copyright to the computer software herein is the property of IntegrIT S.A.
+* The software may be used and/or copied only with the written permission of 
+* IntegrIT S.A. or in accordance with the terms and conditions stipulated in 
+* the agreement/contract under which the software has been supplied. 
+*
+
+In order to define custom properties for any object's properties pane, you may copy/paste from the following,
+making sure that you maintain a proper JSON format.
+
 			{
-				"fieldName": "Shard ID",
-				"fieldKeyword": "shardId",
+				"propertyName": "Simple text",
+				"propertyKeyword": "simpletextProp",
 				"shouldValidate": false,
-				"fieldType": "text"
+				"propertyType": "text"
 			},
 			{
-				"fieldName": "Per node RAM",
-				"fieldKeyword": "ramQuota",
+				"propertyName": "Text area",
+				"propertyKeyword": "textareaProp",
+				"propertyValidate": false,
+				"propertyTooltip": "Popup for multi-line text entry",
+				"propertyType": "details",
+				"template": "textarea"
+			},
+			{
+				"propertyName": "Dropdown selection",
+				"propertyKeyword": "dropdownProp",
 				"shouldValidate": false,
-				"fieldTooltip": "Per node RAM quota",
-				"fieldType": "text",
+				"propertyTooltip": "Select from list of options",
+				"propertyType": "select",
+				"options": [
+					"Option 1",
+					"Option 2",
+					"Option 3",
+					"Option 4"
+				]
+			},
+			{
+				"propertyName": "Numeric",
+				"propertyKeyword": "numericProp",
+				"propertyValidate": true,
+				"propertyType": "text",
 				"valueType": "number"
 			},
 			{
-				"fieldName": "Access control",
-				"fieldKeyword": "accessControl",
+				"propertyName": "Checkbox",
+				"propertyKeyword": "checkboxProp",
 				"shouldValidate": false,
-				"fieldTooltip": "cash metadata",
-				"fieldType": "select",
+				"propertyType": "checkbox"
+			}
+
+*/
+[
+	{
+		"lowerTab": "Details",
+		"structure": [
+			{
+				"propertyName": "Shard ID",
+				"propertyKeyword": "shardId",
+				"shouldValidate": false,
+				"propertyType": "text"
+			},
+			{
+				"propertyName": "Per node RAM",
+				"propertyKeyword": "ramQuota",
+				"shouldValidate": false,
+				"propertyTooltip": "Per node RAM quota",
+				"propertyType": "text",
+				"valueType": "number"
+			},
+			{
+				"propertyName": "Access control",
+				"propertyKeyword": "accessControl",
+				"shouldValidate": false,
+				"propertyTooltip": "cash metadata",
+				"propertyType": "select",
 				"options": [
 					"Standart port",
 					"Dedicated port"
 				]
 			},
 			{
-				"fieldName": "Description",
-				"fieldKeyword": "description",
+				"propertyName": "Description",
+				"propertyKeyword": "description",
 				"shouldValidate": false,
-				"fieldTooltip": "description",
-				"fieldType": "details",
+				"propertyTooltip": "description",
+				"propertyType": "details",
 				"template": "textarea"
 			},
 			{
-				"fieldName": "Comments",
-				"fieldKeyword": "comments",
+				"propertyName": "Comments",
+				"propertyKeyword": "comments",
 				"shouldValidate": false,
-				"fieldTooltip": "comments",
-				"fieldType": "details",
+				"propertyTooltip": "comments",
+				"propertyType": "details",
 				"template": "textarea"
 			}
 		],
