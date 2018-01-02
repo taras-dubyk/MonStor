@@ -1,23 +1,27 @@
 {
-	"name": "MonStor",
-	"version": "0.1.6",
-	"versionDate": "2017-07-20",
-	"author": "hackolade",
-	"engines": {
-		"hackolade": "1.6.x",
-		"hackoladePlugin": "1.0.0"
-	},
-	"contributes": {
-		"target": {
-			"applicationTarget": "MONSTOR",
-			"title": "MonStor",
-			"versions": [
-				"v1.0"
-			]
-		},
-		"features": {
-			"nestedCollections": true
-		}
-	},
-	"description": "Hackolade plugin for MonStor"
+    "name": "MonStor",
+    "version": "0.1.7",
+    "versionDate": "2017-10-26",
+    "author": "hackolade",
+    "engines": {
+        "hackolade": "1.6.x",
+        "hackoladePlugin": "1.0.0"
+    },
+    "contributes": {
+        "target": {
+            "applicationTarget": "MONSTOR",
+            "title": "MonStor",
+            "versions": [
+                "v1.0"
+            ]
+        },
+        "features": {
+            "nestedCollections": true
+        }
+    },
+    "description": "Hackolade plugin for MonStor",
+    "icon_url": "C:\\Users\\Pascal\\.hackolade\\plugins\\MonStor\\logo.jpg",
+    "authorRepo": "https://github.com/hackolade",
+    "repository": "https://github.com/hackolade/MonStor",
+    "disabled": false
 }

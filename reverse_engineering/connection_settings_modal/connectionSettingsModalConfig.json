@@ -1,0 +1,48 @@
+[
+	{
+		"lowerTab": "Connection",
+		"structure": [
+			{
+				"inputLabel": "Name",
+				"inputKeyword": "name",
+				"inputType": "text",
+				"inputPlaceholder": "Name"
+				
+			},
+			{
+				"inputLabel": "Host",
+				"inputKeyword": "host",
+				"inputType": "text"
+			},
+			{
+				"inputLabel": "Port",
+				"inputKeyword": "port",
+				"inputType": "text"
+			}
+		]
+	},
+	{
+		"lowerTab": "Authentication",
+		"structure": [
+			{
+				"inputLabel": "Use Authentication",
+				"inputKeyword": "useAuth",
+				"inputType": "checkbox",
+				"inputTooltip": "Use authentication"
+			},
+			{
+				"inputLabel": "User Name",
+				"inputKeyword": "userName",
+				"inputType": "text",
+				"inputPlaceholder": "userName"
+				
+			},
+			{
+				"inputLabel": "Password",
+				"inputKeyword": "password",
+				"inputType": "password",
+				"isHiddenKey": true
+			}
+		]
+	}
+]

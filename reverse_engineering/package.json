@@ -1,0 +1,10 @@
+{
+  "name": "monstor",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Hackolade",
+  "dependencies": {
+    "async": "^2.5.0",
+    "node-fetch": "^1.7.3"
+  }
+}

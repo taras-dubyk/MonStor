@@ -1,0 +1,5 @@
+{
+	"errors": {
+		"WRONG_CONNECTION": "Can not connect to MonStor instance"
+	}
+}
