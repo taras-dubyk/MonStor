@@ -73,5 +73,66 @@ making sure that you maintain a proper JSON format.
 				"valueType": "string"
 			}
 		]
+	},
+	{
+		"lowerTab": "Indexes",
+		"structure": [{
+			"propertyName": "Index",
+			"propertyType": "group",
+			"propertyKeyword": "Indx",
+			"shouldValidate": false,
+			"propertyTooltip": "",
+			"structure": [
+				{
+					"propertyName": "Name",
+					"propertyKeyword": "name",
+					"shouldValidate": false,
+					"propertyTooltip": "",
+					"propertyType": "text"
+				},
+				{
+					"propertyName": "Key",
+					"propertyKeyword": "key",
+					"shouldValidate": false,
+					"propertyType": "fieldList",
+					"template": "orderedList",
+					"attributeList": [
+						"ascending",
+						"descending"
+					]
+				},
+				{
+					"propertyName": "Id",
+					"propertyKeyword": "IndxID",
+					"shouldValidate": false,
+					"propertyTooltip": "Index ID",
+					"propertyType": "text"
+				},
+				{
+					"propertyName": "Description",
+					"propertyKeyword": "IndxDescription",
+					"shouldValidate": false,
+					"propertyTooltip": "description",
+					"propertyType": "details",
+					"template": "textarea"
+				},
+				{
+					"propertyName": "Function",
+					"propertyKeyword": "IndxFunction",
+					"shouldValidate": false,
+					"propertyTooltip": "description",
+					"propertyType": "details",
+					"template": "textarea"
+				},
+				{
+					"propertyName": "Comments",
+					"propertyKeyword": "IndxComments",
+					"shouldValidate": false,
+					"propertyTooltip": "comments",
+					"propertyType": "details",
+					"template": "textarea"
+				}
+			]
+		}]
 	}
 ]
