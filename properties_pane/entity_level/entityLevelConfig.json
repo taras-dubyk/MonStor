@@ -122,7 +122,7 @@ making sure that you maintain a proper JSON format.
 					"shouldValidate": false,
 					"propertyTooltip": "description",
 					"propertyType": "details",
-					"template": "textarea"
+					"template": "textareaWithoutMarkdown"
 				},
 				{
 					"propertyName": "Comments",
